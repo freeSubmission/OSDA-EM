@@ -15,4 +15,5 @@ Run the open set domain adaptation from BING to CALTECH256 by:
    source_name = "bing"        
    target_name = "caltech256"  
 2. run osda_em_BCIS.py as: 
+   
    python3.6 osda_em_BCIS.py
