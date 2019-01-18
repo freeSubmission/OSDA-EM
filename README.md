@@ -10,8 +10,9 @@ Datasets include BCIS, please downloaded them from webside and unzipped them int
 # Run
 
 Run the open set domain adaptation from BING to CALTECH256 by:
-1) set the source_name and target_name in osda_em.py as
+1. set the source_name and target_name in osda_em_BCIS.py as:
+   
    source_name = "bing"        
    target_name = "caltech256"  
-2) run osda_em.py
-   python3 mnist2svhn_unsup.py
+2. run osda_em_BCIS.py as: 
+   python3.6 osda_em_BCIS.py
